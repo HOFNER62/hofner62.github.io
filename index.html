@@ -22,7 +22,7 @@
     <main>
         <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
             <div class="container-fluid">
-                <img src="images/helterskelter.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+                <img src="images/helterskelter_w.png" width="45" alt="" class="d-inline-block align-middle mr-2">
                 <a class="navbar-brand" href="#">Helter Skelter</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,6 +52,31 @@
                 </div>
             </div>
         </nav>
+
+        <div class="image">
+            <img src="images/warning.svg" alt="Warning">
+            <h2>Under Construction</h2>
+            <style>
+                .image { 
+                    position: relative; 
+                    width: 100%; /* for IE 6 */
+                }
+
+                h2 { 
+                    color: white;
+                    font-size: 50px;
+                    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #000;
+                    position: absolute; 
+                    top: 50px; 
+                    left: 40%; 
+                    width: 100%; 
+                }
+            </style>
+        </div>
+        
+
 
         <div ng-view>
         </div>

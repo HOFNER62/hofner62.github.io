@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg5531" viewBox="0 0 736.47 61.125" version="1.0">
+  <g id="layer1" fill-rule="evenodd" transform="translate(-.98007 -1.1976)">
+    <rect id="rect5537" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.361" x="45.104"/>
+    <rect id="rect6424" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.36" x="94.389" fill="#ff0"/>
+    <rect id="rect6426" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.36" x="144"/>
+    <rect id="rect6428" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.36" x="193.5" fill="#ff0"/>
+    <rect id="rect6430" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.356" x="243.12"/>
+    <rect id="rect6432" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.331" x="292.58" fill="#ff0"/>
+    <rect id="rect6434" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="342.24"/>
+    <rect id="rect6436" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="391.52" fill="#ff0"/>
+    <rect id="rect6438" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="441.14"/>
+    <rect id="rect6440" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="490.63" fill="#ff0"/>
+    <rect id="rect6442" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.32" x="540.25"/>
+    <rect id="rect6444" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.296" x="589.71" fill="#ff0"/>
+    <rect id="rect6446" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="639.41"/>
+    <rect id="rect6448" transform="matrix(1 0 .57783 -.81616 0 0)" height="74.828" width="49.619" y="-76.325" x="688.7" fill="#ff0"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Warning Stripe Black/Yellow</dc:title>
+        <dc:date>2007-04-09T04:54:03</dc:date>
+        <dc:description>Warning Stripe Black/Yellow repeatable pattern</dc:description>
+        <dc:source>http://openclipart.org/detail/3829/warning-stripe-black/yellow-by-sabathius</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sabathius</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>construction</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>pattern</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>repeatable</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>stripe</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>warning</rdf:li>
+            <rdf:li>yellow</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
