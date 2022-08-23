@@ -1,7 +1,7 @@
 var app = angular.module('ngApp', ['ngRoute']);
 
 app.config(function ($routeProvider) {
-     
+    
     $routeProvider.when('/', {
         templateUrl: '/home.html',
         controller: 'homeController'
@@ -38,8 +38,25 @@ app.controller("aboutUsController", function ($scope) {
     console.log('b');
 });
 
-app.controller("gigsController", function ($scope) {
+app.controller("gigsController", function ($scope, $http, $q, $filter) {
     console.log('c');
+
+    $scope.gigs = [];
+
+    $scope.init = function () {
+        getData();
+    }
+
+    getData = () =>  {
+        var file = 'data/gigs.json';
+
+        $http.get(file)
+            .then(function(response) {
+                $scope.gigs = response.data.gigs;
+            });
+    };
+
+    $scope.init();
 });
 
 app.controller("mediaController", function ($scope) {

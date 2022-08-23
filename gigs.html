@@ -1,46 +1,24 @@
-Gigs
-
-Upcoming
-
-SAT, 24 SEP AT 21:00
-The Crook Hotel
-
-FRI, 14 OCT AT 07:00
-Bug jug durham
-The Big Jug  · Durham
-
-SAT, 3 DEC AT 21:00
-Crook Hotel
-
-Past
-
-SAT, 28 MAY
-Old school
-OLD SKOOL Sunderland  · Sunderland
-
-SAT, 23 APR
-The Rutherford AFC club
-Rutherford Afc Lobley Hill  · Gateshead
-
-MON, 11 APR
-The millveiw fullwell
-Mill View Social Club  · Sunderland
-
-FRI, 18 MAR
-Three mile Gosforth
-Three Mile  · Newcastle upon Tyne
-
-SUN, 6 MAR
-Helter Skelter's event
-Event by Helter Skelter
-
-SUN, 6 MAR
-The schooner
-The Schooner  · Gateshead
-
-SUN, 20 FEB
-The vigilant South shields
-
-FRI, 18 FEB
-Big jug Durham
-The Big Jug  · Durham
+<div class="container">
+    <br />
+    <div class="row">
+        <div 
+            ng-repeat="gig in gigs"
+            class="col-md-4"
+            style="margin-bottom: 50px;"
+            >
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    {{gig.venue}}
+                </div>
+                <div class="card-body">
+                    <p ng-if="gig.location.length > 0" class="card-text">{{gig.location}}</p>
+                    <p ng-if="gig.description.length > 0" class="card-text">{{gig.description}}</p>
+                </div>
+                <div class="card-footer text-muted">
+                    {{gig.date | date:'d MMM yyyy'}}
+                    <!-- {{gig.date | toDate | date:'mediumDate'}} -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
