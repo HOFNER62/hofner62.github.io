@@ -20,6 +20,9 @@ app.config(function ($routeProvider) {
     }).when('/services', {
         templateUrl: '/services.html',
         controller: 'servicesController'  
+    }).when('/merch', {
+        templateUrl: '/merch.html',
+        controller: 'merchController'  
     }).otherwise({
         redirectTo: "/"
     });
@@ -27,20 +30,15 @@ app.config(function ($routeProvider) {
 });
 
 app.controller("homeController", function ($scope, $location) {
-    console.log('a');
-
     $scope.isActive = function (viewLocation) { 
         return viewLocation === $location.path();
     };
 });
 
 app.controller("aboutUsController", function ($scope) {
-    console.log('b');
 });
 
 app.controller("gigsController", function ($scope, $http, $q, $filter) {
-    console.log('c');
-
     $scope.gigs = [];
 
     $scope.init = function () {
@@ -60,13 +58,13 @@ app.controller("gigsController", function ($scope, $http, $q, $filter) {
 });
 
 app.controller("mediaController", function ($scope) {
-    console.log('d');
 });
 
 app.controller("bookingController", function ($scope) {
-    console.log('e');
 });
 
 app.controller("servicesController", function ($scope) {
-    console.log('f');
+});
+
+app.controller("merchController", function ($scope) {
 });
