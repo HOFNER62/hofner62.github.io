@@ -11,6 +11,7 @@ Helter Skelter Band Website
 
 `py -m http.server`
 `python -m http.server`
+`python -m SimpleHTTPServer`
 
 - [local](http://localhost:8000/)
 

@@ -9,6 +9,13 @@
         },
         {
             "id": 0,
+            "date": "2022-11-12 20:00:00 +0000",
+            "venue": "Powder Monkey",
+            "location": "Wallsend",
+            "description": "NE28 8TY" 
+        },
+        {
+            "id": 0,
             "date": "2022-10-14 07:00:00 +0000",
             "venue": "The Big Jug",
             "location": "Durham",
