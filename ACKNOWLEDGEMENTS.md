@@ -1,6 +1,7 @@
 # Acknowledgements
 
 - [AngularJS](https://angularjs.org/)
+  - [UI Bootstrap](http://angular-ui.github.io/bootstrap/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Popper.js](https://popper.js.org/)
 
